@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/e435/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e435/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/lge/e435/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/lge/e435/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e435/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/lge/e435/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
@@ -108,9 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/e435/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e435/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/e435/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/e435/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
-    vendor/lge/e435/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lge/e435/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
     vendor/lge/e435/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/e435/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -140,7 +137,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/e435/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/e435/proprietary/lib/libcm.so:system/lib/libcm.so \
-    vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/lge/e435/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/lge/e435/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
-    vendor/lge/e435/proprietary/lib/liboverlay.so:system/lib/liboverlay.so
+    vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so
