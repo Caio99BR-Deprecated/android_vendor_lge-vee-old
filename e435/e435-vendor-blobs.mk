@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/e435/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/e435/proprietary/bin/thermald:system/bin/thermald \
+    vendor/lge/e435/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/e435/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/e435/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/e435/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -137,4 +138,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/e435/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/e435/proprietary/lib/libcm.so:system/lib/libcm.so \
-    vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so
+    vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.ftm_module_out.sh:system/etc/init.qcom.ftm_module_out.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.ftm_module_out.sh:system/etc/init.qcom.ftm_module_out.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.post_fs.sh:system/etc/init.qcom.post_fs.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+    vendor/lge/e435/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh
