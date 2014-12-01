@@ -72,10 +72,6 @@ case "$target" in
     "msm8660_csfb")
         echo 1 > /sys/devices/platform/msm_sdcc.4/polling
         ;;
-
-    "msm7x27a")
-        echo 1 > /sys/devices/platform/msm_sdcc.2/polling
-        ;;
 esac
 
 exit 0
