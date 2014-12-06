@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/e435/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/e435/proprietary/bin/sensord:system/bin/sensord \
-    vendor/lge/e435/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/lge/e435/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/e435/proprietary/bin/mm-adec-omxaac-test:system/bin/mm-adec-omxaac-test \
     vendor/lge/e435/proprietary/bin/mm-adec-omxadpcm-test:system/bin/mm-adec-omxadpcm-test \
@@ -50,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
     vendor/lge/e435/proprietary/bin/mm-venc-omx-test:system/bin/mm-venc-omx-test \
     vendor/lge/e435/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/lge/e435/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/lge/e435/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/lge/e435/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
     vendor/lge/e435/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
@@ -142,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/e435/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/e435/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/lge/e435/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/lge/e435/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/lge/e435/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
     vendor/lge/e435/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
@@ -151,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/lge/e435/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/e435/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e435/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/e435/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e435/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/e435/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
