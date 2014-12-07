@@ -190,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/e435/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/lge/e435/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/e435/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module_out.sh:system/etc/init.qcom.ftm_module_out.sh \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
