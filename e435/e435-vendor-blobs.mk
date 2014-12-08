@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e435/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/e435/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/e435/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e435/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e435/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/e435/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
