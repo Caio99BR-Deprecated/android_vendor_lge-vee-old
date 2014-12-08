@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/lge/e435/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
     vendor/lge/e435/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-    vendor/lge/e435/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/e435/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/e435/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e435/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -66,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e435/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/e435/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/e435/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/e435/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e435/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e435/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
@@ -146,11 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/e435/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
     vendor/lge/e435/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
-    vendor/lge/e435/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e435/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e435/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e435/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e435/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/e435/proprietary/bin/atd:system/bin/atd \
     vendor/lge/e435/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/e435/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -165,9 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/e435/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/e435/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/e435/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/lge/e435/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/e435/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e435/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/e435/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/e435/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
@@ -190,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/e435/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/e435/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/lge/e435/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e435/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module_out.sh:system/etc/init.qcom.ftm_module_out.sh \
     vendor/lge/e435/proprietary/etc/init.qcom.ftm_module.sh:system/etc/init.qcom.ftm_module.sh \
