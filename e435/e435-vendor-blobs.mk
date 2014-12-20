@@ -155,7 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e435/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/e435/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/e435/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/lge/e435/proprietary/lib/libqmi_cstv_srvc.so:system/lib/libqmi_cstv_srvc.so \
+    vendor/lge/e435/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/e435/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/e435/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/lge/e435/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
