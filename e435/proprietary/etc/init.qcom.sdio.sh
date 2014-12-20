@@ -53,6 +53,10 @@ case "$target" in
         echo 1 > /sys/devices/platform/msm_sdcc.2/polling
         ;;
 
+    "msm7x27a")
+        echo 1 > /sys/devices/platform/msm_sdcc.2/polling
+        ;;
+
     "msm7630_surf")
         echo 1 > /sys/devices/platform/msm_sdcc.3/polling
         ;;
