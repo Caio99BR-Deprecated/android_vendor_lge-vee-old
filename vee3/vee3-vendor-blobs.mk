@@ -16,6 +16,7 @@ LOCAL_PATH := vendor/lge/vee3
 
 # Binaries
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     $(LOCAL_PATH)/proprietary/bin/atd:system/bin/atd \
     $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -60,7 +61,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
-    $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init
+    $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub
+
 # HW
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
