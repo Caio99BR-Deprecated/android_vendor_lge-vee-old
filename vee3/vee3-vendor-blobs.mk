@@ -66,7 +66,9 @@ PRODUCT_COPY_FILES += \
 
 # HW
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm7x27a.so:/system/lib/hw/camera.msm7x27a.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
+
 
 # LIB's
 PRODUCT_COPY_FILES += \
@@ -194,6 +196,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/lib/libcm.so:system/lib/libcm.so \
     $(LOCAL_PATH)/proprietary/lib/libauth.so:system/lib/libauth.so \
+    $(LOCAL_PATH)/proprietary/lib/libOlaLGECameraJNI.so:/system/lib/libOlaLGECameraJNI.so \
     $(LOCAL_PATH)/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so
 
 # ETC
