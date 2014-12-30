@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
 
 # HW
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm7x27a.so:/system/lib/hw/camera.msm7x27a.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 
