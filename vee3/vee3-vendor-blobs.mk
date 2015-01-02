@@ -62,6 +62,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
     $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+    $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub
 
 # HW
@@ -196,18 +198,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcm.so:system/lib/libcm.so \
     $(LOCAL_PATH)/proprietary/lib/libauth.so:system/lib/libauth.so \
     $(LOCAL_PATH)/proprietary/lib/libOlaLGECameraJNI.so:/system/lib/libOlaLGECameraJNI.so \
+    $(LOCAL_PATH)/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
+    $(LOCAL_PATH)/proprietary/lib/liblgeat.so:/system/lib/liblgeat.so \
     $(LOCAL_PATH)/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so
 
 # ETC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/improve_sd_read_performance.sh:system/etc/improve_sd_read_performance.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.post_fs.sh:system/etc/init.qcom.post_fs.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh
+    $(LOCAL_PATH)/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+    $(LOCAL_PATH)/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh
 
 # WLAN
 PRODUCT_COPY_FILES += \
@@ -217,8 +217,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
     $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
-
-# Modules
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/modules/volans/cfg80211.ko:system/lib/modules/volans/cfg80211.ko \
-    $(LOCAL_PATH)/proprietary/lib/modules/volans/WCN1314_rf.ko:system/lib/modules/volans/WCN1314_rf.ko
