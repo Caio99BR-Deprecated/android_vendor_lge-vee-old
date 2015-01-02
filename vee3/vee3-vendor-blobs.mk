@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
+    $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub
 
 # HW
@@ -205,9 +206,9 @@ PRODUCT_COPY_FILES += \
 # ETC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/improve_sd_read_performance.sh:system/etc/improve_sd_read_performance.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh
+    $(LOCAL_PATH)/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
+    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
 
 # WLAN
 PRODUCT_COPY_FILES += \
