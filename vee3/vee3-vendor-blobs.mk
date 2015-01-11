@@ -16,7 +16,6 @@ LOCAL_PATH := vendor/lge/vee3
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     $(LOCAL_PATH)/proprietary/bin/atd:system/bin/atd \
     $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -65,6 +64,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
+    $(LOCAL_PATH)/proprietary/bin/ast-mm-vdec-omx-test7k:system/bin/ast-mm-vdec-omx-test7k \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub
 
 # HW
@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
@@ -135,7 +134,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     $(LOCAL_PATH)/proprietary/lib/libauth.so:system/lib/libauth.so \
     $(LOCAL_PATH)/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    $(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     $(LOCAL_PATH)/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(LOCAL_PATH)/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     $(LOCAL_PATH)/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
@@ -201,6 +199,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libOlaLGECameraJNI.so:/system/lib/libOlaLGECameraJNI.so \
     $(LOCAL_PATH)/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
     $(LOCAL_PATH)/proprietary/lib/liblgeat.so:/system/lib/liblgeat.so \
+    $(LOCAL_PATH)/proprietary/lib/liblgdrm.so:/system/lib/liblgdrm.so \
+    $(LOCAL_PATH)/proprietary/lib/liblgsecclk.so:/system/lib/liblgsecclk.so \
     $(LOCAL_PATH)/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so
 
 # ETC
@@ -217,4 +217,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
     $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+    $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko
