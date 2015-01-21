@@ -18,9 +18,12 @@ LOCAL_PATH := vendor/lge/vee3
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/atd:system/bin/atd \
     $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
+    $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
+    $(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(LOCAL_PATH)/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -34,9 +37,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
     $(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 
-# HW's
+# Sensor HW
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 
 # Modules
