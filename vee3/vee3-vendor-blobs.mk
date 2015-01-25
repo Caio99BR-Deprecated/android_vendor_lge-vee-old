@@ -17,9 +17,13 @@ LOCAL_PATH := vendor/lge/vee3
 # Binaries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/atd:system/bin/atd \
+    $(LOCAL_PATH)/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
+    $(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    $(LOCAL_PATH)/proprietary/bin/dun-server:system/bin/dun-server \
     $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
     $(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    $(LOCAL_PATH)/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -33,8 +37,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/qosmgr:system/bin/qosmgr \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
     $(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
+    $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
+    $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     $(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 
 # Sensor HW
