@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
 
 # Modules
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/volans/WCN1314_rf.ko:system/lib/modules/volans/WCN1314_rf.ko \
+    $(LOCAL_PATH)/proprietary/lib/modules/volans/cfg80211.ko:system/lib/modules/volans/cfg80211.ko \
 
 # LIB's
 PRODUCT_COPY_FILES += \
