@@ -26,9 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
-    $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(LOCAL_PATH)/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
-    $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
     $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -55,7 +53,6 @@ PRODUCT_COPY_FILES += \
 # LIB's
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     $(LOCAL_PATH)/proprietary/lib/libauth.so:system/lib/libauth.so \
@@ -67,22 +64,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     $(LOCAL_PATH)/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
     $(LOCAL_PATH)/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    $(LOCAL_PATH)/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    $(LOCAL_PATH)/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     $(LOCAL_PATH)/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     $(LOCAL_PATH)/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     $(LOCAL_PATH)/proprietary/lib/libdss.so:system/lib/libdss.so \
     $(LOCAL_PATH)/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    $(LOCAL_PATH)/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     $(LOCAL_PATH)/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
     $(LOCAL_PATH)/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
     $(LOCAL_PATH)/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     $(LOCAL_PATH)/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
-    $(LOCAL_PATH)/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
     $(LOCAL_PATH)/proprietary/lib/libidl.so:system/lib/libidl.so \
-    $(LOCAL_PATH)/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    $(LOCAL_PATH)/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     $(LOCAL_PATH)/proprietary/lib/liblgdrm.so:/system/lib/liblgdrm.so \
     $(LOCAL_PATH)/proprietary/lib/liblgeat.so:/system/lib/liblgeat.so \
     $(LOCAL_PATH)/proprietary/lib/liblge_security.so:system/lib/liblge_security.so \
@@ -93,53 +84,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
-    $(LOCAL_PATH)/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    $(LOCAL_PATH)/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(LOCAL_PATH)/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     $(LOCAL_PATH)/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     $(LOCAL_PATH)/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     $(LOCAL_PATH)/proprietary/lib/libnv.so:system/lib/libnv.so \
-    $(LOCAL_PATH)/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     $(LOCAL_PATH)/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
-    $(LOCAL_PATH)/proprietary/lib/libOlaLGECameraJNI.so:/system/lib/libOlaLGECameraJNI.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    $(LOCAL_PATH)/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     $(LOCAL_PATH)/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     $(LOCAL_PATH)/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     $(LOCAL_PATH)/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
     $(LOCAL_PATH)/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    $(LOCAL_PATH)/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(LOCAL_PATH)/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     $(LOCAL_PATH)/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     $(LOCAL_PATH)/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
@@ -148,7 +101,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     $(LOCAL_PATH)/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(LOCAL_PATH)/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     $(LOCAL_PATH)/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
@@ -174,5 +126,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
-    $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    $(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
