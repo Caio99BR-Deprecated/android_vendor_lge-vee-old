@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     $(LOCAL_PATH)/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    $(LOCAL_PATH)/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(LOCAL_PATH)/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(LOCAL_PATH)/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
 
