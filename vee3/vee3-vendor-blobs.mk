@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/atd:system/bin/atd \
     $(LOCAL_PATH)/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
+	$(LOCAL_PATH)/proprietary/bin/diag_dci_client:system/bin/diag_dci_client \
+	$(LOCAL_PATH)/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+	$(LOCAL_PATH)/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
+	$(LOCAL_PATH)/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     $(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     $(LOCAL_PATH)/proprietary/bin/dun-server:system/bin/dun-server \
     $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
@@ -38,9 +42,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
     $(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
+	$(LOCAL_PATH)/proprietary/bin/tinycap:system/bin/tinycap \
+	$(LOCAL_PATH)/proprietary/bin/tinymix:system/bin/tinymix \
+	$(LOCAL_PATH)/proprietary/bin/tinyplay:system/bin/tinyplay \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
     $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     $(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+	$(LOCAL_PATH)/proprietary/bin/wmdsi:system/bin/wmdsi \
 
 # HW
 PRODUCT_COPY_FILES += \
@@ -148,6 +156,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     $(LOCAL_PATH)/proprietary/lib/libxml.so:system/lib/libxml.so \
     $(LOCAL_PATH)/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
+
+# Vendor
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 
 # ETC
 PRODUCT_COPY_FILES += \
