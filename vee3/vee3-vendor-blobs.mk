@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     $(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
     $(LOCAL_PATH)/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
+	$(LOCAL_PATH)/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
     $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
     $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -40,6 +41,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
+	$(LOCAL_PATH)/proprietary/bin/sdptool:system/bin/sdptool \
     $(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
 	$(LOCAL_PATH)/proprietary/bin/tinycap:system/bin/tinycap \
