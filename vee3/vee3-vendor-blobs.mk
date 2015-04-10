@@ -93,10 +93,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
 	$(LOCAL_PATH)/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
 	$(LOCAL_PATH)/proprietary/lib/libcm.so:system/lib/libcm.so \
-	$(LOCAL_PATH)/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-	$(LOCAL_PATH)/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-	$(LOCAL_PATH)/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
 	$(LOCAL_PATH)/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	$(LOCAL_PATH)/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	$(LOCAL_PATH)/proprietary/lib/libdsm.so:system/lib/libdsm.so \
