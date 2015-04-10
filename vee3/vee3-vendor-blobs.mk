@@ -21,15 +21,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
 	$(LOCAL_PATH)/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
 	$(LOCAL_PATH)/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
-	$(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-	$(LOCAL_PATH)/proprietary/bin/dun-server:system/bin/dun-server \
 	$(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
 	$(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-	$(LOCAL_PATH)/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
-	$(LOCAL_PATH)/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
 	$(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
 	$(LOCAL_PATH)/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
-	$(LOCAL_PATH)/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
 	$(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -37,8 +32,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/qosmgr:system/bin/qosmgr \
 	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	$(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
-	$(LOCAL_PATH)/proprietary/bin/sdptool:system/bin/sdptool \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
 	$(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 	$(LOCAL_PATH)/proprietary/bin/wmdsi:system/bin/wmdsi \
