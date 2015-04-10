@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
 	$(LOCAL_PATH)/proprietary/bin/sdptool:system/bin/sdptool \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
-	$(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
 	$(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 	$(LOCAL_PATH)/proprietary/bin/wmdsi:system/bin/wmdsi \
 
