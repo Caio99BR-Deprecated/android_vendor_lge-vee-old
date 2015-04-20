@@ -17,10 +17,6 @@ LOCAL_PATH := vendor/lge-vee3/vee3
 # Binaries
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-	$(LOCAL_PATH)/proprietary/bin/diag_dci_client:system/bin/diag_dci_client \
-	$(LOCAL_PATH)/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-	$(LOCAL_PATH)/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
-	$(LOCAL_PATH)/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
 	$(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
 	$(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	$(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
