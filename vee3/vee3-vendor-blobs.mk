@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
 
 # LIB's
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
 	$(LOCAL_PATH)/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	$(LOCAL_PATH)/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
 	$(LOCAL_PATH)/proprietary/lib/libauth.so:system/lib/libauth.so \
