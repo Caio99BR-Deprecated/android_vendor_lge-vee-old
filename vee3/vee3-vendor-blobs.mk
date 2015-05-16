@@ -16,14 +16,12 @@ LOCAL_PATH := vendor/lge-vee3/vee3
 
 # Binaries
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	$(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
 	$(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	$(LOCAL_PATH)/proprietary/bin/hciattach:system/bin/hciattach \
 	$(LOCAL_PATH)/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
-	$(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
 	$(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
 	$(LOCAL_PATH)/proprietary/bin/qosmgr:system/bin/qosmgr \
 	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
