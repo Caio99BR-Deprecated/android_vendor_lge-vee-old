@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	$(LOCAL_PATH)/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	$(LOCAL_PATH)/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-	$(LOCAL_PATH)/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	$(LOCAL_PATH)/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	$(LOCAL_PATH)/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	$(LOCAL_PATH)/proprietary/lib/libqmi.so:system/lib/libqmi.so \
