@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/lge-vee3/msm7x27a-common/msm7x27a-common-vendor-blobs.mk)
+$(call inherit-product, vendor/lge-vee/msm7x27a-common/msm7x27a-common-vendor-blobs.mk)

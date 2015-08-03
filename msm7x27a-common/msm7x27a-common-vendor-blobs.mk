@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/lge-vee3/msm7x27a-common
+LOCAL_PATH := vendor/lge-vee/msm7x27a-common
 
 # Lib's
 PRODUCT_COPY_FILES += \
