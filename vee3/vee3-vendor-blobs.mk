@@ -26,10 +26,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 
-# Modules
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
-
 # LIB's
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \

@@ -14,6 +14,11 @@
 
 LOCAL_PATH := vendor/lge-vee/msm7x27a-common
 
+
+# Modules
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+
 # Lib's
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
