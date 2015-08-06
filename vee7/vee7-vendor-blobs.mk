@@ -14,15 +14,6 @@
 
 LOCAL_PATH := vendor/lge-vee/vee7
 
-####################################################
-###############Our hacked PB are here###############
-####################################################
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
-
-###################################
-# Copy vendor to where they blong #
-###################################
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -39,8 +30,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	$(LOCAL_PATH)/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
