@@ -14,22 +14,38 @@
 
 LOCAL_PATH := vendor/lge-vee/vee7
 
-# Binaries
+####################################################
+###############Our hacked PB are here###############
+####################################################
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+
+###################################
+# Copy vendor to where they blong #
+###################################
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
 	$(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
+	$(LOCAL_PATH)/proprietary/bin/qosmgr:system/bin/qosmgr \
 	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
-
-# HW
-PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-
-# LIB's
-PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+	$(LOCAL_PATH)/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+	$(LOCAL_PATH)/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+	$(LOCAL_PATH)/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	$(LOCAL_PATH)/proprietary/lib/libadc.so:system/lib/libadc.so \
 	$(LOCAL_PATH)/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
 	$(LOCAL_PATH)/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -55,6 +71,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	$(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	$(LOCAL_PATH)/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
+	$(LOCAL_PATH)/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	$(LOCAL_PATH)/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
 	$(LOCAL_PATH)/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
 	$(LOCAL_PATH)/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -117,6 +134,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
 	$(LOCAL_PATH)/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
 	$(LOCAL_PATH)/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
+	$(LOCAL_PATH)/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	$(LOCAL_PATH)/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
 	$(LOCAL_PATH)/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
 	$(LOCAL_PATH)/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
@@ -133,6 +151,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
 	$(LOCAL_PATH)/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	$(LOCAL_PATH)/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	$(LOCAL_PATH)/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	$(LOCAL_PATH)/proprietary/lib/libuim.so:system/lib/libuim.so \
 	$(LOCAL_PATH)/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
 	$(LOCAL_PATH)/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
@@ -145,13 +164,3 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 
-# Adreno blobs
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	$(LOCAL_PATH)/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-	$(LOCAL_PATH)/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-	$(LOCAL_PATH)/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-	$(LOCAL_PATH)/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-	$(LOCAL_PATH)/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
