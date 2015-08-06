@@ -21,10 +21,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
-	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
